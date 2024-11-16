@@ -1,0 +1,31 @@
+/*calendar*/
+.calendar-header {
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+.day-of-week { /* selected? */
+    -fx-font-weight: bold;
+    -fx-text-fill: #707070;
+    -fx-font-size: 12px;
+}
+
+.day-button:hover {
+    -fx-background-color: #e0e0e0;
+    -fx-border-radius: 50%;  /* Round border on hover */
+}
+
+.weekend {
+    -fx-text-fill: #3B82F6;  /* Blue for weekends */
+}
+.december {
+    -fx-text-fill: #b3b1b1;  /* Blue for weekends */
+}
+
+.selected-day {
+    -fx-background-color: #364678;  /* Dark blue */
+    -fx-text-fill: white;
+    -fx-background-radius: 20%;       /* Circle around selected day */
+    -fx-opacity: 0.90;
+}

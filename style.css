@@ -1,0 +1,126 @@
+.selected{
+    -fx-background-color: #F4F4F4;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #ffffff;
+}
+.btn{
+    -fx-background-color: #0C1E33;
+}
+.over:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: white;
+}
+.round {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+.transparent{
+    -fx-backgound-color: red;
+}
+.image{
+    -fx-alignment: left;
+}
+.btnOver:hover{
+    -fx-border-radius: 15;
+    -fx-border-width: 3;
+    -fx-border-color:  #e1b293;
+}
+.enrolledsub{
+    -fx-background-radius: 15;
+    -fx-background-color: #E9D9C9
+}
+.btnOver2:hover{
+    -fx-border-radius: 40;
+    -fx-border-width: 4;
+    -fx-border-color: #91b27e;
+}
+
+.scroll-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-border-color: #e1b293;
+    -fx-border-radius: 15px;
+    -fx-border-width: 2px;
+}
+.scroll-pane .scroll-bar:vertical {
+    -fx-pref-width: 10px; /* Width of the scrollbar */
+    -fx-background-radius: 50px; /* Rounding for scrollbar */
+    -fx-border-radius: 50;
+    -fx-background-color: 0000;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #e1b293;
+    -fx-background-radius: 10px;
+}
+.scroll-pane2 .scroll-bar:vertical .thumb {
+    -fx-background-color: #91b27e;
+}
+.eventScroll .scroll-bar:vertical .thumb {
+    -fx-background-color: #0000;
+}
+.scroll-pane .scroll-bar .increment-button,
+.scroll-pane .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+}
+.inner-container {
+    -fx-padding: 0 10px 0 0;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+    -fx-background-radius: 15px;
+}
+
+.event{
+    -fx-border-radius: 0;
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+    -fx-border-color: #15375e;
+    -fx-border-width: 0 0 0 8;
+}
+.sched{
+    -fx-border-radius: 0;
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+    -fx-border-color: #C0CCC2;
+    -fx-border-width: 0 0 0 8;
+}
+.gradient{
+-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #7dcce4,#537d8f, #135583, #abcad5, #487286);
+}
+.gradient2{
+    -fx-background-color:
+            linear-gradient(to bottom right, #5589a8, #7eaea6), /* Main gradient */
+            radial-gradient(center 25% 25%, radius 60%, #9fc0d3, transparent), /* Top-left highlight */
+            radial-gradient(center 75% 75%, radius 60%, #ac9ada, transparent); /* Bottom-right highlight */
+    -fx-background-insets: 0, 0, 0;
+}
+.boxes{
+    -fx-background-color: rgba(255, 255, 255, 0.30);
+    -fx-background-radius: 15;
+    -fx-border-color: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.5, 0, 0);
+}
+.subs{
+    -fx-background-color:  #d6e8f2;
+    -fx-background-radius: 12;
+}
+.sidebar{
+    -fx-background-color:
+            linear-gradient(to bottom right, #32586e, #42776e), /* Main gradient */
+            radial-gradient(center 25% 25%, radius 60%, #588ba1, transparent), /* Top-left highlight */
+            radial-gradient(center 75% 75%, radius 60%, #856bca, transparent); /* Bottom-right highlight */
+    -fx-background-insets: 0, 0, 0;
+}
+.addsub{
+    -fx-border-radius: 5;
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-background-radius: 5;
+}
+.grades{
+    -fx-background-color: #C5CAE9;
+}

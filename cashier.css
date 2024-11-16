@@ -1,0 +1,11 @@
+.courses{
+    -fx-border-color: black;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-background-color: #e6e6a2;
+}
+.btn{
+    -fx-background-color:  #ECEFF1;
+    -fx-border-radius: 5;
+    -fx-border-color:  black;
+}
